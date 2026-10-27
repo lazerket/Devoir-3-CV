@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CV de Prénom Nom, développeur web et web mobile.">
+  <title>CV — Prénom Nom</title>
+  <link rel="icon" type="image/png" href="./assets/favicon/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <main class="resume" aria-label="Curriculum vitæ de Prénom Nom">
+    <!-- Le header contient la photo de profil, le nom, le métier et les coordonnées -->
+    <header class="hero">
+      <a class="avatar" href="./assets/images/image.jpg" target="_blank" rel="noopener" aria-label="Ouvrir la photo de profil en grand">
+        <img src="./assets/images/image.jpg" alt="Portrait de Prénom Nom">
+      </a>
+      <div class="identity">
+        <h1>Prénom Nom</h1>
+        <p class="job-title">Développeur Web et Web Mobile</p>
+        <ul class="contacts" aria-label="Coordonnées">
+          <li><i class="fa-regular fa-envelope" aria-hidden="true"></i><a href="mailto:prenom.nom@example.com">Mail</a></li>
+          <li><i class="fa-solid fa-house-user"></i><a href="https://www.google.com/maps">Adresse</a></li>
+          <li><i class="fa-solid fa-phone"></i><a href="tel:+33123456789">Téléphone</a></li>
+          <li><i class="fa-solid fa-id-card"></i><span>Permis B</span></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="layout">
+      <!-- La sidebar contient les compétences, les langues, les qualités et les centres d'intérêt -->
+      <aside class="sidebar">
+        <section class="side-section">
+          <h2>Compétences</h2>
+          <ul class="skills">
+            <li><span>HTML</span><span class="stars" aria-label="4 sur 5">★★★★<i>★</i></span></li>
+            <li><span>CSS</span><span class="stars" aria-label="4 sur 5">★★★★<i>★</i></span></li>
+            <li><span>Javascript</span><span class="stars" aria-label="3 sur 5">★★★<i>★★</i></span></li>
+            <li><span>PHP</span><span class="stars" aria-label="3 sur 5">★★★<i>★★</i></span></li>
+          </ul>
+        </section>
+        <section class="side-section">
+          <h2>Langues</h2>
+          <dl class="languages">
+            <div><dt>Français</dt><dd>Langue maternelle</dd></div>
+            <div><dt>Anglais</dt><dd>Professionnel</dd></div>
+            <div><dt>Allemand</dt><dd>Notions</dd></div>
+          </dl>
+        </section>
+        <section class="side-section">
+          <h2>Qualités</h2>
+          <ul class="square-list">
+            <li>Esprit d'équipe</li><li>Autonomie</li><li>Organisation</li><li>Créativité</li>
+          </ul>
+        </section>
+        <section class="side-section">
+          <h2>Centres d'intérêt</h2>
+          <ul class="square-list">
+            <li>Yoga</li><li>Tennis</li><li>Écologie</li>
+          </ul>
+        </section>
+      </aside>
+
+      <!-- Le contenu principal contient le profil, les formations, les stages et l'expérience professionnelle -->
+      <div class="content">
+        <section class="profile">
+          <h2>Profil</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!</p>
+        </section>
+        <section class="timeline-section">
+          <h2>Formations</h2>
+          <article class="entry"><div><h3>Titre Professionnel DWWM</h3><p>Centre Européen de Formation</p></div><time>2023/2024</time></article>
+          <article class="entry"><div><h3>Remise à Niveau - Métiers du numérique</h3><p>Lycée de la ville</p></div><time>Juin 2023 - Septembre 2023</time></article>
+          <article class="entry"><div><h3>Baccalauréat</h3><p>Lycée de la ville</p></div><time>1983</time></article>
+        </section>
+        <section class="timeline-section">
+          <h2>Stages</h2>
+          <article class="entry"><div><h3>Gestionnaire de paye</h3><p>Société Troc &amp; Machine</p></div><time>Mars 2022 - Avril 2022</time></article>
+          <article class="entry"><div><h3>Agent d'accueil</h3><p>Mairie de la ville</p></div><time>Janvier 2021 - Février 2021</time></article>
+        </section>
+        <section class="timeline-section">
+          <h2>Expérience professionnelle</h2>
+          <article class="entry"><div><h3>Agent d'accueil</h3><p>Mairie de la ville</p></div><time>Mars 2021 - Juillet 2021</time></article>
+          <article class="entry"><div><h3>Chauffeur - Livreur</h3><p>Transport Nénés &amp; Fils</p></div><time>Septembre 2021 - Décembre 2021</time></article>
+          <article class="entry"><div><h3>Préparateur de commandes</h3><p>Le shop français</p></div><time>Janvier 2000 - Septembre 2000</time></article>
+        </section>
+      </div>
+    </div>
+    <!-- Le footer contient les liens vers les réseaux sociaux et la date de mise à jour -->
+    <footer class="footer">
+      <nav class="social" aria-label="Réseaux sociaux">
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </nav>
+      <small>Mis à jour le : JJ/MM/AAAA</small>
+    </footer>
+  </main>
+</body>
+</html>
